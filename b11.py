@@ -1,0 +1,8 @@
+gia1=int(input())
+gia2=int(input())
+gia3=int(input())
+sl1=int(input())
+sl2=int(input())
+sl3=int(input())
+phi=int(input())
+print("Tong tien:", gia1*sl1 + gia2*sl2 + gia3*sl3 + phi)

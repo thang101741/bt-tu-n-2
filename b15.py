@@ -1,0 +1,8 @@
+a=int(input())
+s=int(a%60)
+phut=int(a/60)
+gio=int(phut/60)
+ngay=int(gio/24)
+g=int((a-(ngay*86400))/3600)
+p=int((a-(ngay*86400)-(g*3600))/60)
+print(ngay, ":", g, ":", p, ":", s)

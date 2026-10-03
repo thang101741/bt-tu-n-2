@@ -1,0 +1,7 @@
+tien=int(input())
+x=int(tien/500)
+y=int((tien%500)/200)
+z=int((tien - 500*x - 200*y)/100)
+print("So to 500:", x)
+print("So to 200:", y)
+print("So to 100:", z)
